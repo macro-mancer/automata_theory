@@ -23,7 +23,7 @@ class TransitionFunction
 		end
 
 		def applies_to?(state, symbol)
-			@state == state && @symbol == symbol
+			@state == state and @symbol == symbol
 		end
 
 		def follow
